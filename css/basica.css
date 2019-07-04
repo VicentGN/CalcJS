@@ -1,0 +1,82 @@
+/* ESTILOS ESPECÍFICOS PARA BÁSICA */
+
+/* MAIN */
+
+#page > main {
+	width: 1520px;
+	height: 530px;
+}
+
+#container {
+	width: 418px;
+	height: 458px;
+	margin: 35px auto;
+	border: solid 1px gray;
+}
+
+#screen {
+	width: 358px;
+	height: 58px;
+	border: solid 1px gray;
+	margin: 28px 28px 0px 28px;
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+}
+
+#nums {
+	width: 360px;
+	height: 320px;
+	margin-left: 28px;
+	margin-right: 28px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+.btn {
+	width: 90px;
+	height: 80px;
+	border: 1px solid lightgray;
+	float: left;
+	font-size: 45px; 
+	outline: none;
+}
+
+/* RESPONSIVE ESPECÍFICO */
+
+/* Basado en una pantalla 1366x768 */
+
+@media (max-width: 1366px) {
+
+	/* MAIN */
+
+	#page > main {
+		width: 968px;
+		height: 376.3px;
+	}
+
+	#container {
+		width: 296px;
+		height: 325.18px;
+		margin: 24.85px auto;
+	}
+
+	#screen {
+		width: 254.18px;
+		height: 41.18px;
+		margin: 19.88px 19.88px 0px 19.88px;
+		font-size: 21px;
+	}
+
+	#nums {
+		width: 255.6px;
+		height: 227.2px;
+		margin: 14.2px 19.88px 21.3px 19.88px;
+	}
+
+	.btn {
+		width: 63.9px;
+		height: 56.8px;
+		font-size: 31.95px; 
+	}
+}

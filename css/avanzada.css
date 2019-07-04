@@ -1,0 +1,117 @@
+/* ESTILOS ESPECÍFICOS PARA AVANZADA */
+
+/* MAIN */
+
+#page > main {
+	width: 1520px;
+	height: 530px;
+}
+
+#container {
+	width: 984px;
+	height: 458px;
+	margin: 35px auto;
+	border: solid 1px gray;
+}
+
+#screen {
+	height: 58px;
+	border: solid 1px gray;
+	margin: 28px 28px 0px 28px;
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+}
+
+#avanzado {
+	width: 540px;
+	height: 160px;
+	margin-left: 28px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	float: left;
+}
+
+#nums {
+	width: 360px;
+	height: 320px;
+	margin-left: 28px;
+	margin-right: 28px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	float: right;
+}
+
+.btn {
+	width: 90px;
+	height: 80px;
+	border: 1px solid lightgray;
+	float: left;
+	font-size: 45px; 
+	outline: none;
+}
+
+.btn2 {
+	width: 90px;
+	height: 80px;
+	border: 1px solid lightgray;
+	float: left;
+	font-size: 40px; 
+	outline: none;
+}
+
+/* RESPONSIVE ESPECÍFICO */
+
+/* Basado en una pantalla 1366x768 */
+
+@media (max-width: 1366px) {
+
+	/* MAIN */
+
+	#page > main {
+		width: 968px;
+		height: 376.3px;
+	}
+
+	#container {
+		width: 700px;
+		height: 325.18px;
+		margin: 24.85px auto;
+	}
+
+	#screen {
+		height: 41.18px;
+		margin: 19.88px 19.88px 0px 19.88px;
+		font-size: 21.3px;
+	}
+
+	#avanzado {
+		width: 383.4px;
+		height: 113.6px;
+		margin-left: 19.88px;
+		margin-bottom: 21.3px;
+		margin-top: 19.88px;
+	}
+
+	#nums {
+		width: 255.6px;
+		height: 227.2px;
+		margin-left: 19.88px;
+		margin-right: 19.88px;
+		margin-bottom: 21.3px;
+		margin-top: 19.88px;
+	}
+
+	.btn {
+		width: 63.9px;
+		height: 56.8px;
+		font-size: 31.95px; 
+	}
+
+	.btn2 {
+		width: 63.9px;
+		height: 56.8px;
+		font-size: 28.4px; 
+	}
+}	
+

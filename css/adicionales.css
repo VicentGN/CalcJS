@@ -1,0 +1,32 @@
+/* ESTILOS ESPECÍFICOS PARA EL "ABOUT ME" Y "THE PROJECT" */
+
+/* MAIN */
+
+#page > main {
+	width: 1520px;
+	height: 530px;
+}
+
+#page > main > header {
+	margin-top: 25px;
+}
+
+#page > main > article {
+	margin-top: 15px;
+	text-align: justify;
+}
+
+/* RESPONSIVE ESPECÍFICO */
+
+/* Basado en una pantalla 1366x768 */
+
+@media (max-width: 1366px) {
+
+	/* MAIN */
+
+	#page > main {
+		width: 968px;
+		height: 376.3px;
+	}
+
+}
